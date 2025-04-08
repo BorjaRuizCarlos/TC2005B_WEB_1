@@ -11,5 +11,7 @@ app.use(express.static("public"));
 
 //El primero es el puerto y el segundo el callback
 //Escucha el puerto y en seguida hace algo
+
 const port = 4001;
+
 app.listen(port,console.log("http://localhost:"+port));
