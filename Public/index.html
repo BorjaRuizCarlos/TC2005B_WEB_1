@@ -3,19 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Link hacia bootstrap ()-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-DQvkBjpPgn7RC31MCQoOeC9TI2kdqa4+BSgNMNj8v77fdC77Kj5zpWFTJaaAoMbC" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="./styles/styleLogin.css">
     <title>Actividad1</title>
+
+    <!--Imagen de background-->
+    <link rel="stylesheet" type="text/css" href="../Public/styles/style.css">
 </head>
 <body>
+    <div class="form">
     <h1>Welcome to the login for this web page!</h1>
-    <h2>In order to start using our page we only ask for you to sign in.</h2>
+    
+    <h3>In order to start using our page we only ask for you to sign in.</h3>
 
-    <h3>User:</h3>
-    <input type="text">
-
-    <h3>Password:</h3>
-    <input type="text">
+    <form action="">
+        <input type="text" name="username" placeholder="username">
+        <input type="password" name="password" placeholder="password">
+        <button>login</button>
+    </form>
 
     <nav><a href="./pages/profile.html"><br>Login</a></nav>
-    
+    </div>
+
+    <!--Link hacia bootstrap (Archivo de Java)-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/js/bootstrap.bundle.min.js" integrity="sha384-YUe2LzesAfftltw+PEaao2tjU/QATaW/rOitAq67e0CT0Zi2VVRL0oC4+gAaeBKu" crossorigin="anonymous"></script>
 </body>
 </html>

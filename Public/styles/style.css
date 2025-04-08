@@ -1,0 +1,18 @@
+a {
+    color : blue;
+    margin: 5px 10px 20px 30px;
+}
+.Lorem {background-color: aqua;}
+#profile_ID:hover {color: blueviolet;}
+
+.usertxt {
+    font-family: "Roboto", sans-serif;
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    opacity: 99%;
+    max-width: 1000px;
+    margin: 200px auto 100px;
+    padding: 10px 45px 30px 45px;
+    text-align: center;
+}

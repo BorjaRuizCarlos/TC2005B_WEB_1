@@ -1,0 +1,23 @@
+/*Imagen en pantalla de Login*/
+body{
+    padding: 0;
+    margin: 0;
+    background:url(../images/TecRectoria2.jpg)no-repeat;
+    background-size: cover;
+}
+
+/*Diseno aplicado en el login*/
+.form {
+    font-family: "Roboto", sans-serif;
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    opacity: 99%;
+    max-width: 1000px;
+    margin: 200px auto 100px;
+    padding: 10px 45px 30px 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 
+                0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 10px;
+}
